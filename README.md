@@ -6,7 +6,7 @@ I am using [kona](https://github.com/kevinlawler/kona) ... so K3
 
 ## useful references
 
-- https://aplwiki.com/wiki/K
+- https://aplwiki.com/wiki/K
 - https://github.com/kevinlawler/kona/wiki/K-99:-Ninety-Nine-K-Problems
 - https://github.com/kevinlawler/kona/wiki/Csv-loading-and-dictionary
 - https://xpqz.github.io/kbook/Introduction.html
