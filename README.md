@@ -10,3 +10,4 @@ I am using [kona](https://github.com/kevinlawler/kona) ... so K3
 - https://github.com/kevinlawler/kona/wiki/K-99:-Ninety-Nine-K-Problems
 - https://github.com/kevinlawler/kona/wiki/Csv-loading-and-dictionary
 - https://xpqz.github.io/kbook/Introduction.html
+- https://nsl.com/k/training/kreflite.pdf
