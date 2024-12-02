@@ -18,12 +18,13 @@ f: {[s] +/(s="(")+-(s=")")}
 f[a]
 
 / second part
-/ plus one cause index 0 vs 1
-g: {[s] 1+(+\(s="(")+-(s=")"))?-1}
+/ adding 0 in front of the list to fix
+/ the lenght (and the one char input)
+g: {[s] (+\(0,s="(")+-(0,s=")"))?-1}
 `0:"--- Part Two ---\n"
 `0:"tests:\n"
 `0:"0=false;1=true\n"
-/ domain error: 1=g[")"]
+1=g[")"]
 5=g["()())"]
 `0:"puzzle:\n"
 g[a]
