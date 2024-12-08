@@ -19,3 +19,10 @@ Other k runtimes and dialects can be found [here](https://k.miraheze.org/wiki/Ru
 - https://github.com/kevinlawler/kona/wiki/Idioms
 - https://nsl.com/k/
 - http://hakank.org/k/
+
+## TODO:
+
+- Add automation to:
+  - run code
+  - download input files
+- Standardise file reading etc
