@@ -1,10 +1,13 @@
-# advent-of-k
+# Advent of Code
 
-Just trying to solve _all_ advent of code challenges in [k](https://k.miraheze.org/wiki/Running_K) to get better at k.
+🎅🎄🕯️ my solutions to advent of code in a variety of different programming language
 
-I am using [kona](https://github.com/kevinlawler/kona) ... so K3
+## k
 
-## useful references
+Currently I am using the [kona](https://github.com/kevinlawler/kona) k dialect(?).
+Other k runtimes and dialects can be found [here](https://k.miraheze.org/wiki/Running_K).
+
+### useful references
 
 - https://aplwiki.com/wiki/K
 - https://github.com/kevinlawler/kona/wiki/K-99:-Ninety-Nine-K-Problems
