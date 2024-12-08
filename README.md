@@ -11,3 +11,8 @@ I am using [kona](https://github.com/kevinlawler/kona) ... so K3
 - https://github.com/kevinlawler/kona/wiki/Csv-loading-and-dictionary
 - https://xpqz.github.io/kbook/Introduction.html
 - https://nsl.com/k/training/kreflite.pdf
+- https://cosy.com/K/CoSy/K_CoSy.htm
+- https://nsl.com/k/training/idioms_K3.pdf
+- https://github.com/kevinlawler/kona/wiki/Idioms
+- https://nsl.com/k/
+- http://hakank.org/k/
