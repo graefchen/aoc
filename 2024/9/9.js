@@ -1,4 +1,4 @@
-const input = (await Deno.readTextFile("./9.in"))
+const input = (await Deno.readTextFile("./9.txt"))
   .split("\r\n")[0]
   .split("")
   .map((e) => parseInt(e, 10));
