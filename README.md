@@ -2,6 +2,10 @@
 
 🎅🎄🕯️ my solutions to advent of code in a variety of different programming language
 
+## JavaScript/TypeScript
+
+For JavaScript/TypeScript I am using [Deno](https://github.com/denoland/deno).
+
 ## k
 
 Currently I am using the [kona](https://github.com/kevinlawler/kona) k dialect(?).
