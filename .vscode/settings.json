@@ -1,6 +1,5 @@
 {
+    // enabling deno
     "deno.enable": true,
-    "[javascript]": {
-        "editor.formatOnSave": true
-    }
+    "editor.formatOnSave": true
 }

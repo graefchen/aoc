@@ -2,16 +2,29 @@
 
 🎅🎄🕯️ my solutions to advent of code in a variety of different programming language
 
-## JavaScript/TypeScript
+## table of contents
 
-For JavaScript/TypeScript I am using [Deno](https://github.com/denoland/deno).
+- [table of contents](#table-of-contents)
+- [languages](#languages)
+  - [JavaScript](#javascript)
+  - [k](#k)
+    - [useful references](#useful-references)
+- [TODO](#todo)
 
-## k
+## languages
 
-Currently I am using the [kona](https://github.com/kevinlawler/kona) k dialect(?).
+Here are the languages I use(d) for advent of code.
+
+### JavaScript
+
+For JavaScript I am _currently_ using [Deno](https://github.com/denoland/deno).
+
+### k
+
+Currently I _was_ using the [kona](https://github.com/kevinlawler/kona) k dialect(?).
 Other k runtimes and dialects can be found [here](https://k.miraheze.org/wiki/Running_K).
 
-### useful references
+#### useful references
 
 - https://aplwiki.com/wiki/K
 - https://github.com/kevinlawler/kona/wiki/K-99:-Ninety-Nine-K-Problems
@@ -24,7 +37,7 @@ Other k runtimes and dialects can be found [here](https://k.miraheze.org/wiki/Ru
 - https://nsl.com/k/
 - http://hakank.org/k/
 
-## TODO:
+## TODO
 
 - Add automation to:
   - run code
