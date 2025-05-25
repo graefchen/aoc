@@ -8,7 +8,7 @@
 - [languages](#languages)
   - [JavaScript](#javascript)
   - [k](#k)
-    - [useful references](#useful-references)
+    - [useful k references](#useful-k-references)
 - [TODO](#todo)
 - [links to aoc years](#links-to-aoc-years)
 
@@ -25,7 +25,7 @@ For JavaScript I am _currently_ using [Deno](https://github.com/denoland/deno).
 Currently I _was_ using the [kona](https://github.com/kevinlawler/kona) k dialect(?).
 Other k runtimes and dialects can be found [here](https://k.miraheze.org/wiki/Running_K).
 
-#### useful references
+#### useful k references
 
 - https://aplwiki.com/wiki/K
 - https://github.com/kevinlawler/kona/wiki/K-99:-Ninety-Nine-K-Problems
