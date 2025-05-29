@@ -16,13 +16,32 @@
 
 Here are the languages I use(d) for advent of code.
 
+### io
+
+The [io](https://iolanguage.org) language is a cool, more experimental, programming
+language.
+
+#### useful io references
+
+- [io guide](https://iolanguage.org/guide/guide.html)
+- [io tutorial](https://iolanguage.org/tutorial.html)
+- [io samples](https://iolanguage.org/samples/index.html)
+- [io references](https://iolanguage.org/reference/index.html)
+
 ### JavaScript
 
 For JavaScript I am _currently_ using [Deno](https://github.com/denoland/deno).
+This means that Code might not be able to be run with another JavaScript Runtime.
+
+#### useful JavaScript references
+
+- [deno docs](https://docs.deno.com)
+- [jsr](https://jsr.io)
+- [mdn web dcos JavaScript references](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
 ### k
 
-Currently I _was_ using the [kona](https://github.com/kevinlawler/kona) k dialect(?).
+Currently I use the [kona](https://github.com/kevinlawler/kona) k dialect(?).
 Other k runtimes and dialects can be found [here](https://k.miraheze.org/wiki/Running_K).
 
 #### useful k references
