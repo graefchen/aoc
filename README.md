@@ -1,12 +1,16 @@
 # Advent of Code
 
-🎅🎄🕯️ my solutions to advent of code in a variety of different programming language
+🎅🎄🕯️ my solutions to advent of code in a variety of different programming
+languages
 
 ## table of contents
 
 - [table of contents](#table-of-contents)
 - [languages](#languages)
+  - [io](#io)
+    - [useful io references](#useful-io-references)
   - [JavaScript](#javascript)
+    - [useful JavaScript references](#useful-javascript-references)
   - [k](#k)
     - [useful k references](#useful-k-references)
 - [TODO](#todo)
@@ -18,8 +22,12 @@ Here are the languages I use(d) for advent of code.
 
 ### io
 
-The [io](https://iolanguage.org) language is a cool, more experimental, programming
-language.
+The [io](https://iolanguage.org) language is a cool, more experimental,
+programming language.
+
+#### used io librarys
+
+- [md5](https://github.com/IoLanguage/MD5)
 
 #### useful io references
 
@@ -31,7 +39,13 @@ language.
 ### JavaScript
 
 For JavaScript I am _currently_ using [Deno](https://github.com/denoland/deno).
-This means that Code might not be able to be run with another JavaScript Runtime.
+This means that Code might not be able to be run with another JavaScript
+Runtime.
+
+#### used JavaScript librarys
+
+- [encoding](https://jsr.io/@std/encoding)
+- [md5](https://jsr.io/@takker/md5)
 
 #### useful JavaScript references
 
@@ -42,7 +56,8 @@ This means that Code might not be able to be run with another JavaScript Runtime
 ### k
 
 Currently I use the [kona](https://github.com/kevinlawler/kona) k dialect(?).
-Other k runtimes and dialects can be found [here](https://k.miraheze.org/wiki/Running_K).
+Other k runtimes and dialects can be found
+[here](https://k.miraheze.org/wiki/Running_K).
 
 #### useful k references
 
