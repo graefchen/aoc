@@ -1,6 +1,5 @@
 \b t
 
-a: 0: "6.txt.test"
 b: 0: "6.txt"
 
 c:("#.";"^.")
@@ -32,44 +31,6 @@ move: {[m;p]
 	]
 	n}
 
-"Part One..."
-41=+/,/move[a;g[a]]=1
-4559=+/,/move[b;g[b]]=1
-
-rotation: ("   up";"right";" down";" left")
-
-"Part Two"
-
-again: {[m;p]
-/ rotation
-	r: 0
-/ n-matrix
-	n: (^m)#0
-/ wall-matrix
-	w: (^m)#0
-	d: (n;n;n;n)
-/ main loop, moving while we aren't out of bounds
-	while[(~oob[m;p+(dx@r)]);
-/ checking if a wall is in front of us
-		is:pos[m;p+(dx@r)]=2
-/ rotation because there is a wall
-		if[is;t:p+(dx@r);d[r;t@0;t@1]:2;r:((r+1)!4)]
-		t:p+dx@r
-		if[0=r;q: (        p@1) _ d[1;p@0;   ];b:q?2;if[b>0;if[q[b-1];w[t@0;t@1]:1]]]
-		if[1=r;q: (        p@0) _ d[2;   ;p@1];b:q?2;if[b>0;if[q[b-1];w[t@0;t@1]:1]]]
-		if[2=r;q:|(-(1+#m)-p@1) _ d[3;p@0;   ];b:q?2;if[b>0;if[q[b-1];w[t@0;t@1]:1]]]
-		if[3=r;q:|(-(1+#m)-p@0) _ d[0;   ;p@1];b:q?2;if[b>0;if[q[b-1];w[t@0;t@1]:1]]]
-		d[r;t@0;t@1]:1
-		p: p+dx@r
-	]
-	w}
-
-m: move[a;g[a]]
-n: again[m;g[a]]
-+/,/n
-
-m: move[b;g[b]]
-n: again[m;g[b]]
-+/,/n
++/,/move[b;g[b]]=1
 
 \\
