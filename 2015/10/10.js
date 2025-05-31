@@ -1,4 +1,4 @@
-const input = (await Deno.readTextFile("./10.txt"))
+const input = await Deno.readTextFile("./10.txt");
 
 function look(string) {
   const str = string.split("");
@@ -10,7 +10,7 @@ function look(string) {
     if (current === str[i] && i != str.length) {
       amount++;
     } else {
-      r += `${amount}${current}`
+      r += `${amount}${current}`;
       amount = 1;
       current = str[i];
     }

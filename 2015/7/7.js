@@ -1,6 +1,6 @@
-const input = (await Deno.readTextFile("./7.txt")).split("\r\n")
-const re_command = /[A-Z]+/g
-const re_argument = /[a-z0-9]+/g
+const input = (await Deno.readTextFile("./7.txt")).split("\r\n");
+const re_command = /[A-Z]+/g;
+const re_argument = /[a-z0-9]+/g;
 const WIRES = new Map();
 
 const METHODS = {
@@ -30,17 +30,17 @@ for (const instruction of input) {
 // WIRES.set("b", here comes in your answer a);
 
 const calculate = (name) => {
-  const value = WIRES.get(name)
+  const value = WIRES.get(name);
   if (typeof name === "number") return name;
   if (typeof value === "number") return value;
   if (typeof value === "undefined") return undefined;
   if (!value.command) {
-    WIRES.set(name, calculate(value))
+    WIRES.set(name, calculate(value));
   } else {
     const n = METHODS[value.command](calculate(value.a), calculate(value.b));
-    WIRES.set(name, (n < 0 ? 65536 + n : n));
+    WIRES.set(name, n < 0 ? 65536 + n : n);
   }
   return WIRES.get(name);
-}
+};
 
 console.log(calculate("a"));

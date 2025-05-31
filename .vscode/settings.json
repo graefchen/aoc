@@ -1,5 +1,5 @@
 {
-    // enabling deno
-    "deno.enable": true,
-    "editor.formatOnSave": true
+  // enabling deno
+  "deno.enable": true,
+  "editor.formatOnSave": true
 }

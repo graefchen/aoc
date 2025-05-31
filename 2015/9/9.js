@@ -4,7 +4,7 @@ const input = (await Deno.readTextFile("./9.txt")).split("\r\n");
 const re = /(\w+) to (\w+) = (\d+)/;
 const citys = new Set();
 
-const distance = new Map()
+const distance = new Map();
 
 for (const dir of input) {
   const data = dir.match(re);
@@ -23,10 +23,10 @@ function perm(xs) {
   for (let i = 0; i < xs.length; i = i + 1) {
     const rest = perm(xs.slice(0, i).concat(xs.slice(i + 1)));
     if (!rest.length) {
-      ret.push([xs[i]])
+      ret.push([xs[i]]);
     } else {
       for (let j = 0; j < rest.length; j = j + 1) {
-        ret.push([xs[i]].concat(rest[j]))
+        ret.push([xs[i]].concat(rest[j]));
       }
     }
   }
@@ -43,7 +43,7 @@ for (const perm of perms) {
   for (let p = 0; p < perm.length - 1; p++) {
     const from = perm[p];
     const to = perm[p + 1];
-    dist += distance.get([from, to].toString())
+    dist += distance.get([from, to].toString());
   }
   if (dist < min) min = dist;
   if (dist > max) max = dist;

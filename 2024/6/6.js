@@ -35,13 +35,19 @@ for (let or = 0; or < Row; or++) {
       const directioncol = [0, 1, 0, -1][direction];
       const rowrow = row + directionrow;
       const colcol = col + directioncol;
-      if (!(((0 <= rowrow) && (rowrow < Row)) && ((0 <= colcol) && (colcol < Col)))) {
+      if (
+        !(((0 <= rowrow) && (rowrow < Row)) &&
+          ((0 <= colcol) && (colcol < Col)))
+      ) {
         if (Grid.at(or).at(oc) == "#") {
-          p1 = Known_RC.size
+          p1 = Known_RC.size;
         }
         break;
       }
-      if ((Grid.at(rowrow).at(colcol) == '#') || ((rowrow == or) && (colcol == oc))) {
+      if (
+        (Grid.at(rowrow).at(colcol) == "#") ||
+        ((rowrow == or) && (colcol == oc))
+      ) {
         direction = (direction + 1) % 4;
       } else {
         row = rowrow;
