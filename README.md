@@ -8,8 +8,10 @@ languages
 - [table of contents](#table-of-contents)
 - [languages](#languages)
   - [io](#io)
+    - [used io librarys](#used-io-librarys)
     - [useful io references](#useful-io-references)
   - [JavaScript](#javascript)
+    - [used JavaScript librarys](#used-javascript-librarys)
     - [useful JavaScript references](#useful-javascript-references)
   - [k](#k)
     - [useful k references](#useful-k-references)
@@ -44,6 +46,7 @@ Runtime.
 
 #### used JavaScript librarys
 
+- [Combinatorics](https://www.npmjs.com/package/js-combinatorics)
 - [encoding](https://jsr.io/@std/encoding)
 - [md5](https://jsr.io/@takker/md5)
 
@@ -71,6 +74,17 @@ Other k runtimes and dialects can be found
 - https://github.com/kevinlawler/kona/wiki/Idioms
 - https://nsl.com/k/
 - http://hakank.org/k/
+
+### lua
+
+I either use [Lua](https://www.lua.org) or [LuaJit](https://luajit.org) for stuff. It is indeed a fast language.
+
+### wren
+
+Wren is a smaller language that is intended to be an embeded langauges.
+But the [wren-cli](https://github.com/wren-lang/wren-cli) and
+[wren-console](https://github.com/joshgoebel/wren-console) are ways to run wren
+on the command line.
 
 ## TODO
 
