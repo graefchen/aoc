@@ -15,6 +15,8 @@ languages
     - [useful JavaScript references](#useful-javascript-references)
   - [k](#k)
     - [useful k references](#useful-k-references)
+  - [lua](#lua)
+  - [wren](#wren)
 - [TODO](#todo)
 - [links to aoc years](#links-to-aoc-years)
 
