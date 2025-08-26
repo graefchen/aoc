@@ -1,6 +1,6 @@
 # Advent of Code
 
-🎅🎄🕯️ my solutions to advent of code in a variety of different programming
+🕯️ — my solutions to advent of code in a variety of different programming
 languages
 
 ## table of contents
@@ -93,7 +93,7 @@ on the command line.
 - Add automation to:
   - run code
   - download input files
-- Standardise file reading etc
+- Standardise file reading etc.
 
 ## links to aoc years
 
