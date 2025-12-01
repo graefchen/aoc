@@ -12,3 +12,5 @@ for(i, 0, input size - 1,
 )
 num println
 fst println
+
+exit

@@ -28,3 +28,5 @@ loop(
 )
 
 i println
+
+exit

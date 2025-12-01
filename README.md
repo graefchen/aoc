@@ -66,16 +66,16 @@ Other k runtimes and dialects can be found
 
 #### useful k references
 
-- https://aplwiki.com/wiki/K
-- https://github.com/kevinlawler/kona/wiki/K-99:-Ninety-Nine-K-Problems
-- https://github.com/kevinlawler/kona/wiki/Csv-loading-and-dictionary
-- https://xpqz.github.io/kbook/Introduction.html
-- https://nsl.com/k/training/kreflite.pdf
-- https://cosy.com/K/CoSy/K_CoSy.htm
-- https://nsl.com/k/training/idioms_K3.pdf
-- https://github.com/kevinlawler/kona/wiki/Idioms
-- https://nsl.com/k/
-- http://hakank.org/k/
+- [APL Wiki](https://aplwiki.com/wiki/K)
+- [Kona - 99 K Problems](https://github.com/kevinlawler/kona/wiki/K-99:-Ninety-Nine-K-Problems)
+- [Kona - CSV](https://github.com/kevinlawler/kona/wiki/Csv-loading-and-dictionary)
+- [kbook](https://xpqz.github.io/kbook/Introduction.html)
+- [k Reference Manual](https://nsl.com/k/training/kreflite.pdf)
+- [CoSy K](https://cosy.com/K/CoSy/K_CoSy.htm)
+- [nsl K3 idioms](https://nsl.com/k/training/idioms_K3.pdf)
+- [Kona wiki](https://github.com/kevinlawler/kona/wiki/Idioms)
+- [nsl k](https://nsl.com/k/)
+- [Hakank K/Kona](https://hakank.org/k/)
 
 ### lua
 
@@ -107,3 +107,4 @@ on the command line.
 - [2022](https://adventofcode.com/2022)
 - [2023](https://adventofcode.com/2023)
 - [2024](https://adventofcode.com/2024)
+- [2025](https://adventofcode.com/2025)
