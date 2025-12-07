@@ -7,12 +7,14 @@ languages
 
 - [table of contents](#table-of-contents)
 - [languages](#languages)
+  - [awk](#awk)
   - [io](#io)
     - [used io librarys](#used-io-librarys)
     - [useful io references](#useful-io-references)
   - [JavaScript](#javascript)
     - [used JavaScript librarys](#used-javascript-librarys)
     - [useful JavaScript references](#useful-javascript-references)
+  - [Julia](#julia)
   - [k](#k)
     - [useful k references](#useful-k-references)
   - [lua](#lua)
@@ -23,6 +25,10 @@ languages
 ## languages
 
 Here are the languages I use(d) for advent of code.
+
+### awk
+
+For awk I use GNU Awk or [GoAWK](https://github.com/benhoyt/goawk).
 
 ### io
 
@@ -57,6 +63,10 @@ Runtime.
 - [deno docs](https://docs.deno.com)
 - [jsr](https://jsr.io)
 - [mdn web dcos JavaScript references](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+
+### Julia
+
+For Julia I as [Julia](https://julialang.org).
 
 ### k
 
